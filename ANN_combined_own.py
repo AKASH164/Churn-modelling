@@ -260,9 +260,7 @@ grid_search = grid_search.fit(X = X_train, y = y_train) # 2*2*2 = 8 combinations
 best_parameter = grid_search.best_params_
 best_accuracy = grid_search.best_score_
 
-# Homework: How to further improve accuracy
-# 1. Change the architecture of neural network
-# 2. Tray out different parameters combinations
+
 
 
 
